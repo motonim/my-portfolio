@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import sanityClient from "../client";
-import goong from "../goong.jpg";
+import SeoulNight from "../SeoulNight.jpg";
 import imageUrlBuilder from "@sanity/image-url";
 import BlockContent from "@sanity/block-content-to-react";
 
@@ -29,7 +29,7 @@ function About() {
     return (
         <main className="relative">
             <img 
-                src={goong} 
+                src={SeoulNight} 
                 alt="old Korean palace"
                 className="absolute w-full"
             />
